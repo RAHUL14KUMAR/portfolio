@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Resume from './RESUME (2).pdf'
 function About() {
   return (
     <div className="flex  flex-col items-center justify-center bg-white">
@@ -56,9 +57,8 @@ function About() {
         </div>
       </div>
       <div className="sm:flex-col md:flex-row text-center">
-        <button className="text mt-[15px] border-2 p-4 pl-[5em] pr-[5em] font-mono font-bold hover:border-pink-500 hover:text-pink-600 transition-colors ml-5 mr-5">Hire Me</button>
-        <button className=" mt-[15px] border-2 bg-black p-4 pl-[5em] pr-[5em] font-mono font-bold text-white ml-5 mr-5">Download cv
-        </button>
+        <a className="button mt-[15px] border-2 bg-black p-4 pl-[5em] pr-[5em] font-mono font-bold text-white ml-5 mr-5" href={Resume}>Download cv
+        </a>
       </div>
     </div>
     

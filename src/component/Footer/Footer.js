@@ -12,7 +12,7 @@ function Footer() {
                 </svg>
             </div>
             <h1 className="font-mono text-xl font-bold text-pink-700">WHERE TO FIND ME</h1>
-            <p className="text-white">Modern Boys Hostel(Kolkata)</p>
+            <p className="text-white">New Modern Boys Hostel(Kolkata)</p>
             <p className="text-white">700150 India</p>
             </div>
             <div className="m-2 text-center">
