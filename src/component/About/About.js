@@ -57,7 +57,7 @@ function About() {
         </div>
       </div>
       <div className="sm:flex-col md:flex-row text-center">
-        <a className="button mt-[15px] border-2 bg-black p-4 pl-[5em] pr-[5em] font-mono font-bold text-white ml-5 mr-5" href={Resume}>Download cv
+        <a className="no-underline button mt-[15px] border-2 bg-black p-4 pl-[5em] pr-[5em] font-mono font-bold text-white ml-5 mr-5" href={Resume}>Download cv
         </a>
       </div>
     </div>

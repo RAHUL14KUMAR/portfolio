@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './Footer.css'
 function Footer() {
   return (
-    <div className="flex text-white mt-5 bg-black">
+    <div className="flex text-white bg-black">
         <div className="flex w-screen flex-col justify-between md:flex-row">
             <div className="m-2 text-center">
             <div className="flex justify-center text-center">

@@ -1,0 +1,24 @@
+@media (min-width: 576px) {
+    .carousel-container {
+      margin-top:7em;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-container {
+      margin-top:5em;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-container {
+      margin-top:3em;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .carousel-container {
+      margin-top:1em
+    }
+  }
+  
