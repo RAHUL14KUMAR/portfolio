@@ -28,10 +28,10 @@ function About() {
               <h3 className="text font-bold tracking-widest">Birth Date:</h3>
               <p className="font-mono tracking-widest">14-12-2001</p>
             </div>
-            <div className="mt-2">
+            {/* <div className="mt-2">
               <h3 className="text font-bold tracking-widest">website:</h3>
-              <p className="font-mono tracking-widest">14-12-2001</p>
-            </div>
+              <p className="font-mono tracking-widest">https://portfolio-21ne7vj2n-rahul14kumar.vercel.app/</p>
+            </div> */}
             <div className="mt-2">
               <h3 className="text font-bold tracking-widest">email:</h3>
               <p className="font-mono tracking-widest">rahul14.12kr@gmail.com</p>
