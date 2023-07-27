@@ -5,14 +5,13 @@ import './ResponsiveCarousel.css';
 import ReactPlayer from 'react-player';
 
 
-
 const ResponsiveCarousel = () => {
     const carouselStyle = {
         width:'400px' // Set your desired height here
       };
   return (
     <>
-    <div class=" h-screen bg-gray-200 mt-5">
+    <div class="w-full pb-50 bg-gray-200 mt-5">
         <h1 class="pt-5 text-center font-mono text-4xl font-bold text-pink-700 underline">My Works</h1>
         <div class="mt-5">
         <Carousel
@@ -23,9 +22,8 @@ const ResponsiveCarousel = () => {
             autoPlay={true}
             infiniteLoop={true}
             interval={3000}
-            stopOnHover={true}
         >
-            <div class="m-2 flex flex-col items-center justify-between bg-white p-5 md:flex-row class">
+            <div class="m-2 flex flex-col items-center justify-between md:flex flex-col md:justify-center bg-white p-5 class">
                 <div class="m-5">
                 <ReactPlayer class="h-[15em] w-[100em]" url="https://youtu.be/cfBvAH7znEg" controls />
                 </div>
@@ -34,13 +32,13 @@ const ResponsiveCarousel = () => {
                 <p class="ml-5">students and teachers login themselves first.after logging students can ask 10 doubts.after asking 10 doubts student have to buy our subscription and the doubts asked by the student are passed to doubts section where allthe teachers are available and they help the student in solving their doubts</p>
                 <p class="ml-6 mt-2 text-center font-mono font-bold">TechUsed:Mern Stack,Socket.io,Agora</p>
                 <div class="flex justify-center">
-                    <a href='https://github.com/rohitranjan-2702/CodeHelp_Final' class=" no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white">RepoLink</a>
-                    <a href="https://devfolio.co/projects/codehelp-eb12" class="no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white">Devfolio Link</a>
+                    <a href='https://github.com/rohitranjan-2702/CodeHelp_Final' class=" no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">RepoLink</a>
+                    <a href="https://devfolio.co/projects/codehelp-eb12" class="no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">Devfolio Link</a>
                 </div>
                 </div>
             </div>
 
-            <div class="m-2 flex flex-col items-center justify-between bg-white p-5 md:flex-row class">
+            <div class="m-2 flex flex-col items-center justify-between md:flex flex-col md:justify-center bg-white p-5 class">
                 <div class="m-5">
                 <ReactPlayer class="h-[15em] w-[100em]" url="https://youtu.be/3dla2WtrDwo" controls />
                 </div>
@@ -50,15 +48,15 @@ const ResponsiveCarousel = () => {
 
                 <p class="ml-6 mt-2 text-center font-mono font-bold">TechUsed:Next js,Mongodb,Node js ,Express js,cloudinary,flow,OCR</p>
                 <div class="flex justify-center">
-                    <a href='https://github.com/RAHUL14KUMAR/flow' class=" no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white">RepoLink</a>
-                    <a href="https://devfolio.co/projects/flow-estate-52bb" class=" no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white">Devfolio Link</a>
+                    <a href='https://github.com/RAHUL14KUMAR/flow' class=" no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">RepoLink</a>
+                    <a href="https://devfolio.co/projects/flow-estate-52bb" class=" no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">Devfolio Link</a>
                 </div>
                 </div>
             </div>
 
-            <div class="m-2 flex flex-col items-center justify-between bg-white p-5 md:flex-row class">
+            <div class="m-2 flex flex-col items-center justify-between md:flex flex-col md:justify-center bg-white p-5 class">
                 <div class="m-5">
-                <ReactPlayer class="h-[15em] w-[100em]" url="https://youtu.be/cfBvAH7znEg" controls />
+                <ReactPlayer class="h-[15em] w-[100em]" url="https://youtu.be/jJeQDf3Imbw" controls />
                 </div>
                 <div>
                 <h1 class="text-center font-mono font-bold">Mall Management</h1>
@@ -69,22 +67,22 @@ const ResponsiveCarousel = () => {
                     particular product available</p>
                 <p class="ml-6 mt-2 text-center font-mono font-bold">TechUsed:Mern Stack,Redux, RazorPay Payment Gateway</p>
                 <div class="flex justify-center">
-                    <a href='https://github.com/RAHUL14KUMAR/mallMangement' class="no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white">RepoLink</a>
+                    <a href='https://github.com/RAHUL14KUMAR/mallMangement' class="no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">RepoLink</a>
                 </div>
                 </div>
             </div>
 
-            <div class="m-2 flex flex-col items-center justify-between bg-white p-5 md:flex-row class">
+            <div class="m-2 flex flex-col items-center justify-between md:flex flex-col md:justify-center bg-white p-5 class">
                 <div class="m-5">
-                <ReactPlayer class="h-[15em] w-[100em]" url="https://youtu.be/cfBvAH7znEg" controls />
+                <ReactPlayer class="h-[15em] w-[100em]" url="https://youtu.be/FEl85mVZ4NE" controls />
                 </div>
                 <div>
                 <h1 class="text-center font-mono font-bold">PostPe</h1>
                 <p class="ml-5">Its normally a frontend clone of postpe and the main aim to this project is while building i learned more about animation and how we use them </p>
                 <p class="ml-4 mt-5 text-center font-mono font-bold">TechUsed:HTML,CSS</p>
                 <div class="flex justify-center">
-                    <a href='https://github.com/RAHUL14KUMAR/postpe-clone/' class="no-underline button m-4 bg-pink-700 p-2 pl-5 pr-5 text-white">Repo Link</a>
-                    <a href="https://rahul14kumar.github.io/postpe-clone/" class="no-underline button m-4 bg-pink-700 p-2 pl-5 pr-5 text-white">Deploy Link</a>
+                    <a href='https://github.com/RAHUL14KUMAR/postpe-clone/' class="no-underline button m-4 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">Repo Link</a>
+                    <a href="https://rahul14kumar.github.io/postpe-clone/" class="no-underline button m-4 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">Deploy Link</a>
                 </div>
                 </div>
             </div>

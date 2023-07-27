@@ -10,7 +10,7 @@ function About() {
           <div className="flex flex-col items-center justify-center">
             <p className="sm:text mx-[35px] mt-2 text-center font-mono font-bold text-black md:text-2xl">Let Me Introduce Myself</p>
             <div className="mt-5 rounded-full border border-pink-700 text-center">
-              <img src="https://th.bing.com/th?id=OIP.F3x6fcsPqo7wB6d8k2QVEQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" className="h-20 w-20 rounded-full" />
+              <img src="https://lh3.googleusercontent.com/a/AAcHTtdDwSshyjtAgVwlP-kTuS5GDDg6zc1F47gcbJHtoHX8vA=s96-c" className="h-20 w-20 rounded-full" />
             </div>
           </div>
         </div>
@@ -41,17 +41,13 @@ function About() {
             <div className="mt-2">
               <h3 className="text font-bold tracking-widest">Skills set:</h3>
               <p className="font-mono tracking-widest">JAVA</p>
-              <p className="font-mono tracking-widest">REACT JS</p>
+              <p className="font-mono tracking-widest">MERN STACK</p>
               <p className="font-mono tracking-widest">NEXT JS</p>
-              <p className="font-mono tracking-widest">MONGODB</p>
-              <p className="font-mono tracking-widest">NODE JS</p>
-              <p className="font-mono tracking-widest">EXPRESS JS</p>
               <p className="font-mono tracking-widest">REST API</p>
+              <p className="font-mono tracking-widest">AWS SERVERLESS</p>
               <p className="font-mono tracking-widest">JAVASCRIPT</p>
-              <p className="font-mono tracking-widest">BOOTSTRAP</p>
               <p className="font-mono tracking-widest">TAILWIND CSS</p>
-              <p className="font-mono tracking-widest">CSS</p>
-              <p className="font-mono tracking-widest">HTML</p>
+              <p className="font-mono tracking-widest">BOOTSTRAP</p>
             </div>
           </div>
         </div>
