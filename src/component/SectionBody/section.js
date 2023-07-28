@@ -12,7 +12,7 @@ function section() {
         </h1>
         <p className="text-white md:text-6xl my-2 font-mono text-4xl font-bold underline decoration-pink-500/30">I am Rahul kumar</p>
         <p className="text-white font-mono my-[-8px] mx-[45px]">full stack developer|coder</p>
-        <p className="text-white font-mono my-[8px] mx-[45px]">web3 enthusiasts</p>
+        <p className="text-white font-mono my-[8px] mx-[45px]">web3 enthusiast</p>
         <button className="text-white font-bold font-sans p-4 border-2 mt-[15px] hover:border-rose-700">More About Me</button>
         <div className="mt-[6em] flex">
           <a href="https://www.linkedin.com/in/rahul-kumar-216872227/" className='text-white text-4xl m-5 hover:text-5xl ease-in duration-300'><TbBrandLinkedin/></a>
