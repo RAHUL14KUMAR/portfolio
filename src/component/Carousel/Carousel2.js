@@ -33,7 +33,7 @@ const ResponsiveCarousel = () => {
                 <p class="ml-6 mt-2 text-center font-mono font-bold">TechUsed:Mern Stack,Socket.io,Agora</p>
                 <div class="flex justify-center">
                     <a href='https://github.com/rohitranjan-2702/CodeHelp_Final' class=" no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">RepoLink</a>
-                    <a href="https://devfolio.co/projects/codehelp-eb12" class="no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">Devfolio Link</a>
+                    <a href="https://bikramhere.live/" class="no-underline button m-2 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">Deployed Link</a>
                 </div>
                 </div>
             </div>

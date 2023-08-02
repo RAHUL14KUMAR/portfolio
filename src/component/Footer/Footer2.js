@@ -13,9 +13,9 @@ function Footer2() {
                 <p className="text-white font-mono font-bold text-xl">Design by : Rahul Kumar</p>
             </div>
             <div className="flex m-2 text-center">
-          <a href="https://www.linkedin.com/in/rahul-kumar-216872227/" className='text-white text-4xl mr-5'><TbBrandLinkedin/></a>
-          <a href="https://twitter.com/RahulKu41405561" className='text-white text-4xl mr-5'><BiLogoTwitter/></a>
-          <a href="https://github.com/RAHUL14KUMAR" className='text-white text-4xl mr-5'><AiOutlineGithub/></a>
+          <a href="https://www.linkedin.com/in/rahul-kumar-216872227/" className='text-white text-4xl mr-5' target="_blank"><TbBrandLinkedin/></a>
+          <a href="https://twitter.com/RahulKu41405561" className='text-white text-4xl mr-5' target="_blank"><BiLogoTwitter/></a>
+          <a href="https://github.com/RAHUL14KUMAR" className='text-white text-4xl mr-5' target="_blank"><AiOutlineGithub/></a>
         </div>
         </div>
     </div>

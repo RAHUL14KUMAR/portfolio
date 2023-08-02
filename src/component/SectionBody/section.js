@@ -15,10 +15,10 @@ function section() {
         <p className="text-white font-mono my-[8px] mx-[45px]">web3 enthusiast</p>
         <button className="text-white font-bold font-sans p-4 border-2 mt-[15px] hover:border-rose-700">More About Me</button>
         <div className="mt-[6em] flex">
-          <a href="https://www.linkedin.com/in/rahul-kumar-216872227/" className='text-white text-4xl m-5 hover:text-5xl ease-in duration-300'><TbBrandLinkedin/></a>
+          <a href="https://www.linkedin.com/in/rahul-kumar-216872227/" className='text-white text-4xl m-5 hover:text-5xl ease-in duration-300' target="_blank"><TbBrandLinkedin/></a>
           
-          <a href="https://twitter.com/RahulKu41405561" className='text-white text-4xl m-5 hover:text-5xl ease-in duration-300'><BiLogoTwitter/></a>
-          <a href="https://github.com/RAHUL14KUMAR" className='text-white text-4xl m-5 hover:text-5xl ease-in duration-300'><AiOutlineGithub/></a>
+          <a href="https://twitter.com/RahulKu41405561" className='text-white text-4xl m-5 hover:text-5xl ease-in duration-300' target="_blank"><BiLogoTwitter/></a>
+          <a href="https://github.com/RAHUL14KUMAR" className='text-white text-4xl m-5 hover:text-5xl ease-in duration-300' target="_blank"><AiOutlineGithub/></a>
         </div>
       </div>
     </div>
