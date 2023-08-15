@@ -40,6 +40,24 @@ const ResponsiveCarousel = () => {
 
             <div class="m-2 flex flex-col items-center justify-between md:flex flex-col md:justify-center bg-white p-5 class">
                 <div class="m-5">
+                <ReactPlayer class="h-[15em] w-[100em]" url="https://www.youtube.com/watch?v=REpp8VCX1NE&t=6s" controls />
+                </div>
+                <div>
+                <h1 class="text-center font-mono font-bold">Savoury Searches[Hackathon Winning Project]</h1>
+                <p class="ml-5">Savoury Searches is a user-friendly web application designed to cater to the needs of passionate foodies who thrive on culinary adventures and have an insatiable craving for exploring new and delectable street food experiences.<br/>
+                Supporting Local Economies: Savoury Searches boosts local food economy by driving foot traffic to street stalls.<br/>
+                User-Generated Reviews and Ratings: Users review stalls, sharing experiences and insights. Ratings aid fellow foodies in informed choices, embarking on flavorful journeys crafted by the community's expertise.
+                </p>
+                <p class="ml-4 mt-5 text-center font-mono font-bold">TechUsed:MERN,AWS S3,SERVERLESS,CLOUDINARY</p>
+                <div class="flex justify-center">
+                    <a href='https://github.com/pratham4434/SavourySearches' class="no-underline button m-4 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">Repo Link</a>
+                </div>
+                </div>
+            </div>
+
+
+            <div class="m-2 flex flex-col items-center justify-between md:flex flex-col md:justify-center bg-white p-5 class">
+                <div class="m-5">
                 <ReactPlayer class="h-[15em] w-[100em]" url="https://youtu.be/3dla2WtrDwo" controls />
                 </div>
                 <div>
@@ -82,7 +100,6 @@ const ResponsiveCarousel = () => {
                 <p class="ml-4 mt-5 text-center font-mono font-bold">TechUsed:HTML,CSS</p>
                 <div class="flex justify-center">
                     <a href='https://github.com/RAHUL14KUMAR/postpe-clone/' class="no-underline button m-4 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">Repo Link</a>
-                    <a href="https://rahul14kumar.github.io/postpe-clone/" class="no-underline button m-4 bg-pink-700 p-2 pl-5 pr-5 text-white" target="_blank">Deploy Link</a>
                 </div>
                 </div>
             </div>
